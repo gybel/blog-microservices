@@ -4,3 +4,6 @@ Source code for blogs regarding microservices at http://callistaenterprise.se/bl
 
 
 Test test.
+
+
+Test af lokal branch.
