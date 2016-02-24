@@ -82,8 +82,8 @@ public class AuthserverApplication {
 
 						// Create the Claims, which will be the content of the JWT
 						JwtClaims claims = new JwtClaims();
-						claims.setIssuer("Issuer");  // who creates the token and signs it
-						claims.setAudience("Audience"); // to whom the token is intended to be sent
+						claims.setIssuer("Issuer2");  // who creates the token and signs it
+						claims.setAudience("Audience2"); // to whom the token is intended to be sent
 						claims.setExpirationTimeMinutesInTheFuture(100); // time when the token will expire (10 minutes from now)
 						claims.setGeneratedJwtId(); // a unique identifier for the token
 						claims.setIssuedAtToNow();  // when the token was issued/created (now)
